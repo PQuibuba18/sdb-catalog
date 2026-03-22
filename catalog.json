@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "version": 1,
+    "published_at": "2025-03-22T20:00:00.000Z",
+    "total_songs": 3,
+    "total_artists": 2
+  },
+  "artists": [
+    {
+      "id": "artist-001",
+      "name": "João Silva",
+      "artist_name": "DJ Kizomba Flow",
+      "bio": "Artista independente de Luanda. Música que vem do coração.",
+      "avatar_url": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/v1/avatars/dj-kizomba.jpg",
+      "genres": ["Kizomba", "Afrobeats"],
+      "is_blocked": false
+    },
+    {
+      "id": "artist-002",
+      "name": "Maria Santos",
+      "artist_name": "MC Luanda",
+      "bio": "Rap e hip-hop da capital angolana.",
+      "avatar_url": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/v1/avatars/mc-luanda.jpg",
+      "genres": ["Hip-Hop", "Rap"],
+      "is_blocked": false
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-001",
+      "artist_id": "artist-001",
+      "title": "Noite de Kizomba",
+      "genre": "Kizomba",
+      "cover_url": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/v1/covers/noite-kizomba.jpg",
+      "audio_url": "https://res.cloudinary.com/YOUR_CLOUD/video/upload/v1/audio/noite-kizomba.mp3",
+      "duration_sec": 213,
+      "promoted": true,
+      "promoted_until": "2025-04-30",
+      "tags": ["romantic", "dance"],
+      "released_at": "2025-03-01"
+    },
+    {
+      "id": "song-002",
+      "artist_id": "artist-001",
+      "title": "Kuduro Fever",
+      "genre": "Kuduro",
+      "cover_url": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/v1/covers/kuduro-fever.jpg",
+      "audio_url": "https://res.cloudinary.com/YOUR_CLOUD/video/upload/v1/audio/kuduro-fever.mp3",
+      "duration_sec": 187,
+      "promoted": false,
+      "tags": ["party", "dance"],
+      "released_at": "2025-02-15"
+    },
+    {
+      "id": "song-003",
+      "artist_id": "artist-002",
+      "title": "Rua do Samba",
+      "genre": "Semba",
+      "cover_url": "https://res.cloudinary.com/YOUR_CLOUD/image/upload/v1/covers/rua-samba.jpg",
+      "audio_url": "https://res.cloudinary.com/YOUR_CLOUD/video/upload/v1/audio/rua-samba.mp3",
+      "duration_sec": 241,
+      "promoted": false,
+      "tags": ["classic"],
+      "released_at": "2025-01-20"
+    }
+  ]
+}
